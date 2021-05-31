@@ -25,8 +25,8 @@ figure,plot(fshift,abs(yshift));
 xlabel('f/Hz')
 title('Spectrum of sinc(2t)')
 ```
-Nice sinc.
-![sinc(2t)](sinc(2t).png)
+Nice sinc.  
+![sinc(2t)](sinc(2t).png)  
 Not so nice spectrum.... 
 ![Spectrum of sinc(2t)](spectrum_sinc2t.png)  
 One could, of course, tweak parameters to obtain "nicer looks". But in the end that will only get you so far.. And since this is not about the effects of digital signal processing (yet) we don't want to see these effects.
