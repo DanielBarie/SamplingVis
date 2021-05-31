@@ -16,8 +16,7 @@ t = -2:Ts:2;
 fs = 1/Ts
 x=sinc(t*2);
 figure;plot(t,x),title('sinc(2t)'),xlabel('t')
-x=sinc(t*4);
-figure;plot(t,x)
+n = length(x);
 y = fft(x);
 yshift = fftshift(y);
 fshift = (-n/2:n/2-1)*(fs/n);
